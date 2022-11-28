@@ -5,7 +5,7 @@ Repositório contendo exemplos de uso da biblioteca [Go-Redis](https://github.co
 ## Requisitos
 
 Golang >= 1.18
-Redis
+Redis >= 7
 
 ### Como rodar o servidor do Redis?
 
@@ -16,4 +16,12 @@ docker run --name my-redis-instance -p 6379:6379 -d redis:alpine
 
 ### Como rodar o exemplo?
 
-TODO:
+#### Exemplo de Ping
+
+Útil para validar se o ambiente está funcionando.
+
+Execute:
+
+```bash
+go run pkg/ping/ping.go
+```
