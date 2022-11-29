@@ -25,3 +25,21 @@ Execute:
 ```bash
 go run pkg/ping/ping.go
 ```
+
+#### Exemplo de Cache
+
+Execute:
+
+```bash
+go run pkg/cache/cache.go
+```
+
+#### Exemplo de Databse
+
+Contém um exemplo de serialização e deserialização de JSON.
+
+Execute:
+
+```bash
+go run pkg/database/database.go
+```
