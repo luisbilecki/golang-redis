@@ -43,3 +43,16 @@ Execute:
 ```bash
 go run pkg/database/database.go
 ```
+
+#### Exemplo de Pub Sub
+
+Inscrever se no canal para receber notificações
+```bash
+go run pkg/pub_sub/subscribe/subscriber.go
+```
+
+Publicar notificações
+
+```bash
+go run pkg/pub_sub/publisher/publisher.go
+```
